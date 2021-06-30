@@ -17,6 +17,7 @@ class DietaryRestrictionsViewController: UIViewController {
     
     
     @IBAction func glutenFree(_ sender: Any) {
+//        glutenFree.backgroundColor = [UIColor, greenColor]
     }
     
     override func viewDidLoad() {
