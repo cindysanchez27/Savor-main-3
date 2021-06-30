@@ -15,6 +15,10 @@ import UIKit
 
 class DietaryRestrictionsViewController: UIViewController {
     
+    
+    @IBAction func glutenFree(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

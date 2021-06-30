@@ -33,6 +33,9 @@
                                 <state key="normal" title="Gluten-Free">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="glutenFree:" destination="z4K-wN-iIw" eventType="touchUpInside" id="tbR-Wt-djU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Seu-jN-dgw">
                                 <rect key="frame" x="178" y="389" width="73" height="30"/>
@@ -78,6 +81,7 @@
                     <navigationItem key="navigationItem" id="j0b-4e-WzR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="z4K-wN-iIw" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1037.3831775700935" y="89.416846652267822"/>
         </scene>
